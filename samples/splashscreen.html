@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <style>
+        body{
+        padding: 2rem 0rem;
+        background-color:darkslategray;        
+        }
+
+        #outer {
+            left: 50%;
+            top:50%;
+            position: absolute;
+            margin-left: -200px;
+            margin-top: -250px;
+            width: 400px;
+            text-align:center;
+        }
+        #marquee {
+            /* border: 1px solid yellow; */
+            position:relative;
+            display: block;
+            font-size: 50px;
+            color:greenyellow;
+            padding-top:40px;
+            display:inline-block;
+        }
+        #quote{
+            /* border: 1px solid yellow; */
+            margin-top: 20px;
+            position: relative;
+            display: inline-block;
+            font-size: 12px;
+            color:greenyellow;
+            width: 300px;
+            font-style: italic;
+            text-align: center;
+        }
+        #quoter {
+            /* border: 1px solid yellow; */
+            text-align: left;
+            margin-top: 20px;
+            position: relative;
+            display: inline-block;
+            font-size: 12px;
+            color:greenyellow;
+            width: 300px;
+            font-style: italic;
+            text-align: right;
+        }
+        #splashbar{
+            /* border: 1px solid greenyellow; */
+            border-radius: 10px;
+            position: absolute;
+            bottom: 50px;
+            right: 25%;
+            left:50%;
+            font-size: 12px;
+            color:greenyellow;
+            width: 300px;
+            height: 60px;  
+            text-align: center;
+            margin-left: -150px;
+        }
+        .splashbutton {
+            padding-left: 10px;
+            margin-top: 10px;
+            margin-right:40px;
+            /* border: 1px solid greenyellow;             */
+            width: 65px;
+            height: 40px;
+            color: greenyellow;
+            margin-bottom: 30px;
+            display: inline-block;
+            justify-content: center;
+            padding-top: 5px;
+        }
+        .splashbutton:last-child {
+            margin-right: 0px;
+        }
+    </style>  
+
+</head>
+  <body>
+
+    <div id="outer">
+        <div id="marquee">
+            SplungeWorks
+        </div>
+        <div id="quote">
+            "This is a quote that will change daily. Sometimes it will be a long quote that will span multiple lines."
+        </div>
+        <div id="quoter">
+            -Famous Person
+        </div>
+
+    </div>
+
+    <div id="splashbar">
+        <div class="splashbutton">
+            Info
+        </div>
+        <div class="splashbutton">
+            Login
+        </div>   
+        <div class="splashbutton">
+            Register
+        </div>           
+    </div>
+
+  </body>
+</html>

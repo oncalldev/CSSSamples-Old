@@ -1,0 +1,74 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 10px;
+    grid-auto-rows: 400px 400px 400px;
+    justify-content: center;
+    background-color:gray;
+  }
+  .card {
+    border: 1px solid gray;
+    width: 250px;
+    height: 300px;
+    padding-bottom: 10px;
+    background-color: black;
+    border-radius: 10px;
+  }
+  .image {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border : 1px solid gray;
+    width: 90%;
+    max-height: 90%;
+  }
+  .caption {
+    padding-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    width: 90%;
+    height: 10px;
+    text-align: center;
+    color: white;
+  }
+  .info {
+    padding-top: 10px;
+    width: 90%;
+    height: 50px;
+    color:white;
+  }
+  img {
+    padding: 10px;
+    margin-left: auto;
+    margin-right:auto;
+    max-height:100%;
+    max-width:100%;
+
+  }
+  img:hover {
+    cursor: pointer;
+  }
+  .one {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .two {      
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .three {  
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .four {  
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .five {   
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .six {   
+    grid-column: 3;
+    grid-row: 2;
+  }

@@ -1,0 +1,102 @@
+.landscape {
+    height: 300px;
+    width: 1600px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+  }
+  
+  .landscape div {
+    display: inline-block;
+    margin: 15px;
+    height: 200px;
+    outline: 1px solid black;
+    position: relative;
+  }
+  
+  .overlay_icon {
+    position: absolute;
+    bottom:10px;
+    right:10px;
+    font-size: 10px;
+    color: rgba(221, 224, 212, 0.897);
+
+  }
+
+  .overlay_icon:hover {
+      cursor:pointer;
+  }
+
+  .lfull {
+    width: 400px;
+  
+  }
+  
+  .lobject {
+    width: 200px;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .left img {
+    object-position: left;
+  }
+  
+  .mid-left img {
+    object-position: 33.3% center;
+  }
+  
+  .center img {
+    /* default */
+  }
+  
+  .mid-right img {
+    object-position: 66.6% center;
+  }
+  
+  .right img {
+    object-position: right;
+  }
+  
+  .portrait {
+    height: 600px;
+    width: 1600px;
+    border: 1px solid gray;
+  }
+  
+  .portrait div {
+    display: inline-block;
+    margin: 15px;
+    width: 200px;
+    outline: 1px solid black;
+  }
+  
+  .pfull {
+    height: 200px;
+  }
+  
+  .pobject {
+    height: 200px;
+  }
+  
+  .top img {
+    object-position: top;
+  }
+  
+  .center {
+  
+  }
+  
+  .mid-top img {
+    object-position: left 33.3%;
+  }
+  
+  .mid-bottom img {
+    object-position: left 66.6%;
+  }
+  .bottom img {
+    object-position: bottom;
+  }
