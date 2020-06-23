@@ -1,0 +1,115 @@
+$primary-bgcolor: darkslategray;
+$primary-fgcolor: greenyellow;
+$debug : false;
+
+body{
+    padding: 2rem 0rem;
+    background-color: $primary-bgcolor;
+} 
+#outer {
+    left: 50%;
+    top:50%;
+    position: absolute;
+    margin-left: -200px;
+    margin-top: -250px;
+    width: 400px;
+    text-align:center;
+}
+#marquee {
+    @if $debug {
+     border: 1px solid yellow;       
+    }
+    position:relative;
+    display: block;
+    font-size: 50px;
+    color:$primary-fgcolor;
+    padding-top:40px;
+    display:inline-block;
+}
+#quote{
+    @if $debug {
+        border: 1px solid yellow;       
+       }
+    margin-top: 20px;
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+    color:$primary-fgcolor;
+    width: 300px;
+    font-style: italic;
+    text-align: center;
+}
+#quoter {
+    @if $debug {
+        border: 1px solid yellow;       
+       }
+    text-align: left;
+    margin-top: 20px;
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+    color:$primary-fgcolor;
+    width: 300px;
+    font-style: italic;
+    text-align: right;
+}
+#splashgallery {
+    @if $debug {
+        border: 1px solid yellow;       
+       }
+    margin-top: 50px;
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    background-color: green;
+}
+#splashgallery > img {
+    max-width: 100%;
+    height: auto;
+}
+#lastchanged {
+    @if $debug {
+        border: 1px solid yellow;       
+       }
+    margin-top: 10px;
+    position: relative;
+    display: inline-block;
+    width: 300px;   
+    height:50px;  
+    color:$primary-fgcolor;   
+    font-size:12px;        
+}
+#splashbar{
+    @if $debug {
+        border: 1px solid yellow;       
+       }
+    border-radius: 10px;
+    position: absolute;
+    bottom: 50px;
+    right: 25%;
+    left:50%;
+    font-size: 12px;
+    color: $primary-fgcolor;
+    width: 300px;
+    height: 60px;  
+    text-align: center;
+    margin-left: -150px;
+}
+.splashbutton {
+    @if $debug {
+        border: 1px solid yellow;       
+       }      
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-right:40px;
+    width: 65px;
+    height: 40px;
+    color: $primary-fgcolor;
+    margin-bottom: 30px;
+    display: inline-block;
+    justify-content: center;
+    padding-top: 5px;
+}
+.splashbutton:last-child {
+    margin-right: 0px;
+}

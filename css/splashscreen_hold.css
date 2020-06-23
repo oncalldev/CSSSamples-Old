@@ -14,6 +14,7 @@ body {
 }
 
 #marquee {
+  /* border: 1px solid yellow; */
   position: relative;
   display: block;
   font-size: 50px;
@@ -23,6 +24,7 @@ body {
 }
 
 #quote {
+  /* border: 1px solid yellow; */
   margin-top: 20px;
   position: relative;
   display: inline-block;
@@ -34,6 +36,7 @@ body {
 }
 
 #quoter {
+  /* border: 1px solid yellow; */
   text-align: left;
   margin-top: 20px;
   position: relative;
@@ -46,6 +49,7 @@ body {
 }
 
 #splashgallery {
+  /* border: 1px solid yellow; */
   margin-top: 50px;
   position: relative;
   display: inline-block;
@@ -59,6 +63,7 @@ body {
 }
 
 #lastchanged {
+  /* border: 1px solid yellow; */
   margin-top: 10px;
   position: relative;
   display: inline-block;
@@ -69,6 +74,7 @@ body {
 }
 
 #splashbar {
+  /* border: 1px solid greenyellow; */
   border-radius: 10px;
   position: absolute;
   bottom: 50px;
@@ -86,12 +92,15 @@ body {
   padding-left: 10px;
   margin-top: 10px;
   margin-right: 40px;
+  /* border: 1px solid greenyellow;             */
   width: 65px;
   height: 40px;
   color: greenyellow;
   margin-bottom: 30px;
   display: inline-block;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-top: 5px;
 }
 
