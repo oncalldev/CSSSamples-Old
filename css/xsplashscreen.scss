@@ -2,6 +2,11 @@ $primary-bgcolor: darkslategray;
 $primary-fgcolor: greenyellow;
 $debug : false;
 
+@mixin position-list {
+    position: relative;
+    display: inline-block;
+}
+
 body{
     padding: 2rem 0rem;
     background-color: $primary-bgcolor;
@@ -31,8 +36,7 @@ body{
         border: 1px solid yellow;       
        }
     margin-top: 20px;
-    position: relative;
-    display: inline-block;
+    @include position-list;
     font-size: 12px;
     color:$primary-fgcolor;
     width: 300px;
@@ -45,8 +49,7 @@ body{
        }
     text-align: left;
     margin-top: 20px;
-    position: relative;
-    display: inline-block;
+    @include position-list;
     font-size: 12px;
     color:$primary-fgcolor;
     width: 300px;
@@ -58,8 +61,7 @@ body{
         border: 1px solid yellow;       
        }
     margin-top: 50px;
-    position: relative;
-    display: inline-block;
+    @include position-list;
     width: 150px;
     background-color: green;
 }

@@ -15,7 +15,7 @@ body {
 
 #marquee {
   position: relative;
-  display: inline-block;
+  display: block;
   font-size: 50px;
   color: greenyellow;
   padding-top: 40px;
@@ -98,4 +98,4 @@ body {
 .splashbutton:last-child {
   margin-right: 0px;
 }
-/*# sourceMappingURL=splashscreen.css.map */
+/*# sourceMappingURL=xsplashscreen.css.map */
