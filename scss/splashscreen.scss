@@ -1,6 +1,10 @@
 $primary-bgcolor: darkslategray;
 $primary-fgcolor: greenyellow;
 $debug : false;
+@mixin position-list {
+    position: relative;
+    display: inline-block;
+}
 
 body{
     padding: 2rem 0rem;
@@ -19,8 +23,7 @@ body{
     @if $debug {
      border: 1px solid yellow;       
     }
-    position:relative;
-    display: block;
+    @include position-list;
     font-size: 50px;
     color:$primary-fgcolor;
     padding-top:40px;
@@ -31,8 +34,7 @@ body{
         border: 1px solid yellow;       
        }
     margin-top: 20px;
-    position: relative;
-    display: inline-block;
+    @include position-list;
     font-size: 12px;
     color:$primary-fgcolor;
     width: 300px;
@@ -45,8 +47,7 @@ body{
        }
     text-align: left;
     margin-top: 20px;
-    position: relative;
-    display: inline-block;
+    @include position-list;
     font-size: 12px;
     color:$primary-fgcolor;
     width: 300px;
@@ -58,8 +59,7 @@ body{
         border: 1px solid yellow;       
        }
     margin-top: 50px;
-    position: relative;
-    display: inline-block;
+    @include position-list;
     width: 150px;
     background-color: green;
 }
@@ -72,8 +72,7 @@ body{
         border: 1px solid yellow;       
        }
     margin-top: 10px;
-    position: relative;
-    display: inline-block;
+    @include position-list;
     width: 300px;   
     height:50px;  
     color:$primary-fgcolor;   
