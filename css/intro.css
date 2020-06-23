@@ -1,0 +1,43 @@
+body {
+  padding: 2rem 0rem;
+  background-color: darkslategray;
+}
+
+#outer {
+  border: 1px solid yellow;
+  left: 50%;
+  top: 25%;
+  position: absolute;
+  margin-left: -450px;
+  margin-top: -175px;
+  width: 900px;
+  height: 800px;
+  text-align: center;
+}
+
+#pagetitle {
+  border: 1px solid yellow;
+  width: 500px;
+  height: 40px;
+  color: white;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.pagepanel {
+  border: 1px solid yellow;
+  width: 250px;
+  height: 90%;
+  display: inline-block;
+}
+
+.pagedoublepanel {
+  border: 1px solid yellow;
+  width: 500px;
+  height: 90%;
+  display: inline-block;
+  margin-right: 20px;
+}
+/*# sourceMappingURL=intro.css.map */

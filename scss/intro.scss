@@ -1,0 +1,61 @@
+$primary-bgcolor: darkslategray;
+$primary-fgcolor: greenyellow;
+$debug : true;
+
+@mixin position-list {
+    position: relative;
+    display: inline-block;
+}
+
+
+body{
+    padding: 2rem 0rem;
+    background-color: $primary-bgcolor;
+
+} 
+#outer{
+    @if $debug {
+        border: 1px solid yellow;       
+       }   
+       left: 50%;
+       top:25%;
+       position: absolute;
+       margin-left: -450px;
+       margin-top: -175px;
+       width: 900px;
+       height: 800px;
+       text-align:center;
+}
+
+#pagetitle {
+    @if $debug {
+        border: 1px solid yellow;       
+       }   
+    width: 500px;
+    height: 40px;
+    color: white;
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;  
+    margin-bottom: 10px; 
+}
+.pagepanel {
+    @if $debug {
+        border: 1px solid yellow;       
+       }    
+       width: 250px;
+       height: 90%;
+       display: inline-block;
+}
+// .pagepanel:last-child {
+//     margin-right: 0px;
+// }
+.pagedoublepanel {
+    @if $debug {
+        border: 1px solid yellow;       
+       }    
+       width: 500px;
+       height: 90%;
+       display: inline-block;
+       margin-right: 20px;    
+}
