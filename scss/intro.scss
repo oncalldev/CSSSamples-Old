@@ -1,6 +1,6 @@
 $primary-bgcolor: darkslategray;
 $primary-fgcolor: greenyellow;
-$debug : false;
+$debug : true;
 
 @mixin position-list {
     position: relative;
@@ -30,13 +30,22 @@ body{
        height: 800px;
        text-align:center;
 }
-
+#outer-header{
+    @if $debug {
+        border: 1px solid yellow;       
+       } 
+    width: 850px;
+    height:50px;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom:10px;
+}
 #gallerytitle {
     @if $debug {
         border: 1px solid yellow;       
        }   
     width: 500px;
-    height: 40px;
+    height: 30px;
     color: white;
     margin-top:10px;
     margin-left:60px;
@@ -49,7 +58,7 @@ body{
         border: 1px solid yellow;       
        }  
     width: 150px;
-    height: 40px;
+    height: 30px;
     color: white;
     margin-top:10px;
     margin-bottom: 10px; 
@@ -57,13 +66,22 @@ body{
     float:right;
     margin-right:110px;
 }
+#outer-panel {
+    @if $debug {
+        border: 1px solid pink;       
+       } 
+       width: 90%;
+       height: 90%;
+}
 .pagepanel {
     @if $debug {
         border: 1px solid yellow;       
        }    
-       width: 250px;
+       width: 200px;
        height: 90%;
        display: inline-block;
+       color:white;
+       text-align: left;
 }
 
 .pagedoublepanel {
@@ -71,9 +89,9 @@ body{
         border: 1px solid yellow;       
        }    
        width: 500px;
-       height: 90%;
+       height: 95%;
        display: inline-block;
-       margin-right: 20px;    
+       margin-right: 20px; 
 }
 .gallerycard {
 

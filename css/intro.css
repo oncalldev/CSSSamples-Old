@@ -4,6 +4,7 @@ body {
 }
 
 #outer {
+  border: 1px solid yellow;
   left: 50%;
   top: 25%;
   position: absolute;
@@ -14,9 +15,19 @@ body {
   text-align: center;
 }
 
+#outer-header {
+  border: 1px solid yellow;
+  width: 850px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
 #gallerytitle {
+  border: 1px solid yellow;
   width: 500px;
-  height: 40px;
+  height: 30px;
   color: white;
   margin-top: 10px;
   margin-left: 60px;
@@ -26,8 +37,9 @@ body {
 }
 
 #othertitle {
+  border: 1px solid yellow;
   width: 150px;
-  height: 40px;
+  height: 30px;
   color: white;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -36,15 +48,25 @@ body {
   margin-right: 110px;
 }
 
+#outer-panel {
+  border: 1px solid pink;
+  width: 90%;
+  height: 90%;
+}
+
 .pagepanel {
-  width: 250px;
+  border: 1px solid yellow;
+  width: 200px;
   height: 90%;
   display: inline-block;
+  color: white;
+  text-align: left;
 }
 
 .pagedoublepanel {
+  border: 1px solid yellow;
   width: 500px;
-  height: 90%;
+  height: 95%;
   display: inline-block;
   margin-right: 20px;
 }
@@ -61,6 +83,7 @@ body {
 }
 
 .gallerycardleft {
+  border: 1px solid yellow;
   position: relative;
   width: 35%;
   height: 100%;
@@ -68,6 +91,7 @@ body {
 }
 
 .gallerycardright {
+  border: 1px solid yellow;
   position: relative;
   width: 60%;
   height: 100%;
@@ -75,6 +99,7 @@ body {
 }
 
 .galleryimage {
+  border: 1px solid yellow;
   margin-left: 30px;
   margin-top: 50px;
   width: 120px;
@@ -86,6 +111,7 @@ body {
 }
 
 .gallerytitle {
+  border: 1px solid yellow;
   margin-top: 5px;
   width: 200px;
   height: 30px;
@@ -97,6 +123,7 @@ body {
 }
 
 .gallerydescription {
+  border: 1px solid yellow;
   margin-top: 5px;
   width: 200px;
   height: 130px;
