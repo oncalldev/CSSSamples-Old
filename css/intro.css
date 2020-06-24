@@ -4,7 +4,6 @@ body {
 }
 
 #outer {
-  border: 1px solid yellow;
   left: 50%;
   top: 25%;
   position: absolute;
@@ -16,7 +15,6 @@ body {
 }
 
 #pagetitle {
-  border: 1px solid yellow;
   width: 500px;
   height: 40px;
   color: white;
@@ -24,20 +22,77 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .pagepanel {
-  border: 1px solid yellow;
   width: 250px;
   height: 90%;
   display: inline-block;
 }
 
 .pagedoublepanel {
-  border: 1px solid yellow;
   width: 500px;
   height: 90%;
   display: inline-block;
   margin-right: 20px;
+}
+
+.gallerycard {
+  border: 1px solid yellow;
+  width: 90%;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.gallerycardleft {
+  position: relative;
+  width: 35%;
+  height: 100%;
+  float: left;
+}
+
+.gallerycardright {
+  position: relative;
+  width: 60%;
+  height: 100%;
+  float: right;
+}
+
+.galleryimage {
+  margin-left: 30px;
+  margin-top: 50px;
+  width: 120px;
+}
+
+.galleryimage > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.gallerytitle {
+  margin-top: 5px;
+  width: 200px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+.gallerydescription {
+  margin-top: 5px;
+  width: 200px;
+  height: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  color: white;
+  font-size: 12px;
 }
 /*# sourceMappingURL=intro.css.map */
