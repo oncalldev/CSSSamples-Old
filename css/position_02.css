@@ -1,5 +1,7 @@
 .landscape {
-  height: 300px;
+  padding-top: 20px;
+  padding-left: 20px;
+  height: 400px;
   width: 1600px;
   border: 1px solid gray;
   margin-bottom: 20px;
@@ -7,18 +9,18 @@
 
 .landscape div {
   display: inline-block;
-  margin: 15px;
-  height: 200px;
   outline: 1px solid black;
+  margin-left: 20px;
 }
 
 .lfull {
-  width: 400px;
-
+  width: 150px;
+  overflow: hidden;
 }
 
 .lobject {
-  width: 200px;
+  width: 150px;
+  height: 150px;
 }
 
 img {
@@ -48,24 +50,29 @@ img {
 }
 
 .portrait {
-  height: 600px;
+  height: 550px;
+  padding-top:20px;
+  padding-left: 20px;
   width: 1600px;
   border: 1px solid gray;
+  margin-bottom: 20px;
 }
 
 .portrait div {
   display: inline-block;
-  margin: 15px;
-  width: 200px;
   outline: 1px solid black;
 }
 
 .pfull {
-  height: 200px;
+  width: 150px;
+  overflow:hidden;
+  margin-left:20px;
 }
 
 .pobject {
-  height: 200px;
+  width: 150px;
+  height:150px;
+  margin-left: 20px;
 }
 
 .top img {
